@@ -1,2 +1,2 @@
 # estudos
-você está lendo um repositório com todos os meus arquivos de estudos, atualizado diariamente...
+Você está lendo um repositório com todos os meus arquivos de estudo. 
