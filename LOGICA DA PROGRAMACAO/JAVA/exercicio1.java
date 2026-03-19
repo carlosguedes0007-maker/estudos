@@ -1,3 +1,5 @@
+/*soma de dois numeros*/
+
 public class exercicio1 {
 
     public int[] numeros = {10,20};
