@@ -31,7 +31,6 @@ public class exercicio3{
             }
         }
     }
-
     public static double convertTime(double tempo) {
         return tempo / 1000;
     }
