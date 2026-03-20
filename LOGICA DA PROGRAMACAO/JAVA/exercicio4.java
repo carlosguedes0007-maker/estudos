@@ -1,4 +1,4 @@
-/*manipulando tempo e segundos com if,else - parte 2*/
+/*criando um sistema de pontuacao de um jogo em java*/
 
 import java.util.Scanner;
 
