@@ -1,0 +1,68 @@
+1. O que é o XAMPP e Instalação Básica
+O XAMPP é um pacote que transforma seu computador em um servidor local. Ele contém:
+
+Apache: O servidor web (o "garçom" que entrega a página no navegador).
+
+MySQL/MariaDB: O banco de dados.
+
+PHP: A linguagem de programação que processa o código.
+
+Como instalar:
+
+Baixe o instalador no site oficial: apachefriends.org.
+
+Execute a instalação padrão (é recomendado manter o diretório C:\xampp).
+
+Ao finalizar, abra o XAMPP Control Panel.
+
+2. Como alterar a pasta padrão de projetos (DocumentRoot)
+Por padrão, o Apache só lê os arquivos que estão dentro de C:\xampp\htdocs. Para organizar seus projetos em outra pasta (ex: em um HD secundário ou pasta pessoal), siga os passos abaixo:
+
+Passo 2.1: Abra o arquivo de configuração
+
+No painel do XAMPP, localize a linha do módulo Apache.
+
+Clique no botão Config (na mesma linha do Apache) e selecione Apache (httpd.conf).
+
+Nota: Se der erro no Bloco de Notas do Windows, vá no botão "Config" geral do XAMPP (canto superior direito), mude o Editor de notepad.exe para wordpad.exe e tente novamente.
+
+Passo 2.2: Altere os caminhos
+
+Com o arquivo aberto, aperte Ctrl + F e pesquise por DocumentRoot.
+
+Você encontrará duas linhas parecidas com estas:
+
+Apache
+DocumentRoot "C:/xampp/htdocs"
+<Directory "C:/xampp/htdocs">
+Altere o caminho entre aspas para a sua nova pasta.
+
+REGRAS IMPORTANTES PARA O CAMINHO DA PASTA:
+
+Use barras normais (/): O Apache não reconhece barras invertidas (\) do Windows.
+
+Evite acentos e espaços: O servidor pode falhar ao iniciar se o caminho contiver acentos ou espaços (Ex: mude Programação para Programacao).
+
+Exemplo de como deve ficar:
+Apache
+DocumentRoot "D:/MeusProjetos/Estudos/PHP"
+<Directory "D:/MeusProjetos/Estudos/PHP">
+Salve o arquivo (Ctrl + S) e feche o editor.
+
+3. Reiniciando e Testando
+Para que o Apache reconheça a nova pasta, ele precisa ser reiniciado.
+
+No painel do XAMPP, clique em Stop no Apache.
+
+Aguarde alguns segundos e clique em Start novamente (ele deve ficar com o fundo verde).
+
+Vá até a sua nova pasta personalizada e crie um arquivo chamado index.php.
+
+Adicione um código de teste:
+<?php echo "<h1>Servidor configurado com sucesso!</h1>"; ?>
+Abra o navegador e digite apenas localhost na barra de endereços.
+
+4. Solução de Problemas Comuns (Troubleshooting)
+O Apache não liga (não fica verde): Verifique se você digitou o caminho da pasta corretamente no httpd.conf. Confirme se usou barras normais (/) e remova qualquer acentuação ou espaço no nome das pastas.
+
+Digito localhost e sou redirecionado para localhost/dashboard: Isso é o cache do seu navegador "lembrando" do redirecionamento antigo. Abra uma Guia Anônima (Ctrl + Shift + N), digite localhost e teste novamente. Certifique-se também de que você clicou em "Stop" e "Start" no Apache após salvar o arquivo de configuração.

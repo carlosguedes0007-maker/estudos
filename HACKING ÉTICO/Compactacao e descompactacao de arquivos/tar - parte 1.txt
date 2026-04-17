@@ -1,0 +1,12 @@
+cd local do arquivo
+	cd /home
+tar -cvf NOME DO ARQUIVO.tar /diretorio/aqui
+	cria um arquivo .tar, mostra o progresso e o nome do arquivo
+	
+
+tar -cvzf NOME DO ARQUIVO.tar.bz2 /diretorio/aqui
+tar -cvjf NOME DO ARQUIVO.tgz /diretorio/aqui #compacta mais
+
+
+PARA DESCOMPACTAR E O -xvf
+

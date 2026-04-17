@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h2.title{
+    color: green;
+}
+
+.teste > h2.title{
+    color: blue;
+}
+
+h2{
+    color: red !important;
+}

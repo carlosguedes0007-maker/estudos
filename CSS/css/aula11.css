@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes anim1 {
+    0% {background-color: green; width: 100%;}
+    50% {background-color: red; width: 50%;}
+    100% {background-color: black; width: 1%;}
+}
+
+.teste{
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    animation-name: anim1;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}

