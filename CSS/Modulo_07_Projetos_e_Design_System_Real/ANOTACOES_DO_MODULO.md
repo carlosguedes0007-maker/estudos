@@ -1,43 +1,43 @@
-# 📓 Módulo 7: Maestria em CSS3 - Construindo um Design System Completo (Tópicos 61 a 70)
+#  Módulo 7: Maestria em CSS3 - Construindo um Design System Completo (Tópicos 61 a 70)
 
-## 🎯 Meu Foco de Estudo no Módulo
+##  Meu Foco de Estudo no Módulo
 Neste módulo, concentrei meus estudos em dominar os 10 tópicos listados abaixo. Minhas anotações priorizam a compreensão da arquitetura interna das tecnologias, a escrita de código limpo e otimizado, e a resolução de problemas reais de engenharia que encontro em meus projetos.
 
-## 🧠 Minhas Anotações & Resumos Técnicos
+##  Minhas Anotações & Resumos Técnicos
 
-### 📌 Estruturação do guia de estilos visual (Styleguide)
+###  Estruturação do guia de estilos visual (Styleguide)
 Durante os meus estudos sobre **Estruturação do guia de estilos visual (Styleguide)**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
-### 📌 Criação de tokens globais para o hub 'Estudos'
+###  Criação de tokens globais para o hub 'Estudos'
 Durante os meus estudos sobre **Criação de tokens globais para o hub 'Estudos'**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
-### 📌 Desenvolvimento da biblioteca de botões (Primary, Secondary, Ghost, Glow)
+###  Desenvolvimento da biblioteca de botões (Primary, Secondary, Ghost, Glow)
 Durante os meus estudos sobre **Desenvolvimento da biblioteca de botões (Primary, Secondary, Ghost, Glow)**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
-### 📌 Componentes de HUD e estética Sci-Fi / Cyberpunk
+###  Componentes de HUD e estética Sci-Fi / Cyberpunk
 Durante os meus estudos sobre **Componentes de HUD e estética Sci-Fi / Cyberpunk**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
-### 📌 Cards estilo Glassmorphism com bordas luminosas reativas
+###  Cards estilo Glassmorphism com bordas luminosas reativas
 Durante os meus estudos sobre **Cards estilo Glassmorphism com bordas luminosas reativas**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
-### 📌 Sistema de grid flexível 12 colunas nativo em CSS
+###  Sistema de grid flexível 12 colunas nativo em CSS
 Durante os meus estudos sobre **Sistema de grid flexível 12 colunas nativo em CSS**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
-### 📌 Utilitários de animação de entrada (Fade-in, Slide-up, Pulse)
+###  Utilitários de animação de entrada (Fade-in, Slide-up, Pulse)
 Durante os meus estudos sobre **Utilitários de animação de entrada (Fade-in, Slide-up, Pulse)**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
-### 📌 Integração do Design System em páginas de alta conversão
+###  Integração do Design System em páginas de alta conversão
 Durante os meus estudos sobre **Integração do Design System em páginas de alta conversão**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
-### 📌 Testes de regressão visual e compatibilidade entre navegadores
+###  Testes de regressão visual e compatibilidade entre navegadores
 Durante os meus estudos sobre **Testes de regressão visual e compatibilidade entre navegadores**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
-### 📌 Projeto Final: O Framework CSS Personalizado Guedes-UI
+###  Projeto Final: O Framework CSS Personalizado Guedes-UI
 Durante os meus estudos sobre **O Framework CSS Personalizado Guedes-UI**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
 ---
 
-## 💻 Meu Experimento Prático no Lab
+##  Meu Experimento Prático no Lab
 Abaixo está o código prático de referência que escrevi e testei no meu terminal/navegador para colocar à prova as anotações deste módulo:
 
 ```css
@@ -67,5 +67,5 @@ Abaixo está o código prático de referência que escrevi e testei no meu termi
 
 ---
 
-## 🚀 Meu Próximo Passo no Estudo
+##  Meu Próximo Passo no Estudo
 Para aprofundar meu aprendizado neste módulo, meu desafio é implementar uma variação do laboratório acima, adicionando uma funcionalidade extra para testar cenários limites e fixar os 10 conceitos estudados nesta etapa.

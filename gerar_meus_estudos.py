@@ -1256,29 +1256,28 @@ def gerar_meus_estudos():
             try: os.remove(old_guia)
             except Exception: pass
             
-        # 1. Cria o Caderno de Anotações e Índice da Trilha (70+ Tópicos)
         caderno_path = os.path.join(trk_dir, "CADERNO_DE_ESTUDOS.md")
         with open(caderno_path, "w", encoding="utf-8") as f:
             f.write(f'<div align="center">\n\n')
-            f.write(f'# 📓 {trk["title"]} - Meu Caderno de Anotações (70+ Tópicos) 🚀\n\n')
+            f.write(f'#  {trk["title"]} - Meu Caderno de Anotações (70+ Tópicos) \n\n')
             f.write(f'**{trk["desc"]}**\n\n')
             f.write('[![Status](https://img.shields.io/badge/Status-70%2B_Tópicos_Estudados-00ff88?style=for-the-badge)](https://github.com/carlosguedes-dev)\n')
             f.write('[![Estudante](https://img.shields.io/badge/Estudante-Carlos_Guedes_Dev-38bdf8?style=for-the-badge)](https://github.com/carlosguedes-dev)\n\n')
             f.write(f'</div>\n\n---\n\n')
-            f.write(f'## 🎯 Visão Geral dos Meus Estudos\n\n')
+            f.write(f'##  Visão Geral dos Meus Estudos\n\n')
             f.write('Este documento organiza o meu caderno pessoal de anotações, resumos teóricos e experimentos de código nesta especialização dentro do meu repositório de **Estudos**. Estruturei meu aprendizado rigorosamente em **7 Módulos de Investigação**, totalizando **70 tópicos de estudo detalhados**, onde documentei a teoria, armadilhas comuns, macetes corporativos e desenvolvi códigos de laboratório para fixar cada conceito.\n\n')
-            f.write(f'---\n\n## 📚 Índice de Resumos & Experimentos\n\n')
+            f.write(f'---\n\n##  Índice de Resumos & Experimentos\n\n')
             
             for mod_folder, mod_title, mod_lessons in trk["mod_topics"]:
-                f.write(f'### 🔹 {mod_title}\n')
+                f.write(f'###  {mod_title}\n')
                 f.write(f'**Pasta de Resumos e Experimentos:** `/{mod_folder}/`\n\n')
                 for idx, lesson in enumerate(mod_lessons, 1):
-                    f.write(f'- 📌 Tópico {idx:02d}: {lesson}\n')
+                    f.write(f'-  Tópico {idx:02d}: {lesson}\n')
                 f.write('\n')
             
             f.write(f'---\n\n<div align="center">\n')
-            f.write('  <p>💡 <i>"A constância nos estudos e o teste diário no código são os verdadeiros segredos para evoluir na engenharia de software."</i></p>\n')
-            f.write('  <p><b>Caderno e laboratório mantido por <a href="https://github.com/carlosguedes-dev">Carlos Guedes</a> ❤️🚀</b></p>\n')
+            f.write('  <p> <i>"A constância nos estudos e o teste diário no código são os verdadeiros segredos para evoluir na engenharia de software."</i></p>\n')
+            f.write('  <p><b>Caderno e laboratório mantido por <a href="https://github.com/carlosguedes-dev">Carlos Guedes</a> </b></p>\n')
             f.write(f'</div>\n')
             
         # 2. Cria cada uma das 7 pastas de módulo com material de anotação e código experimental
@@ -1299,15 +1298,15 @@ def gerar_meus_estudos():
             # Arquivo de Anotações consolidado do módulo
             doc_path = os.path.join(mod_dir, "ANOTACOES_DO_MODULO.md")
             with open(doc_path, "w", encoding="utf-8") as f:
-                f.write(f'# 📓 {mod_title}\n\n')
-                f.write(f'## 🎯 Meu Foco de Estudo no Módulo\n')
+                f.write(f'#  {mod_title}\n\n')
+                f.write(f'##  Meu Foco de Estudo no Módulo\n')
                 f.write('Neste módulo, concentrei meus estudos em dominar os 10 tópicos listados abaixo. Minhas anotações priorizam a compreensão da arquitetura interna das tecnologias, a escrita de código limpo e otimizado, e a resolução de problemas reais de engenharia que encontro em meus projetos.\n\n')
-                f.write(f'## 🧠 Minhas Anotações & Resumos Técnicos\n\n')
+                f.write(f'##  Minhas Anotações & Resumos Técnicos\n\n')
                 for l_idx, l_title in enumerate(mod_lessons, 1):
-                    f.write(f'### 📌 {l_title}\n')
+                    f.write(f'###  {l_title}\n')
                     f.write(f'Durante os meus estudos sobre **{l_title.split(": ")[-1]}**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.\n\n')
                 
-                f.write(f'---\n\n## 💻 Meu Experimento Prático no Lab\n')
+                f.write(f'---\n\n##  Meu Experimento Prático no Lab\n')
                 f.write('Abaixo está o código prático de referência que escrevi e testei no meu terminal/navegador para colocar à prova as anotações deste módulo:\n\n')
                 f.write(f'```{trk["code_lang"]}\n')
                 
@@ -1391,13 +1390,13 @@ export const MeuLabComponent: React.FC<AnotacaoLabProps> = ({ modulo, topicosCou
 
     return (
         <div className="p-6 bg-slate-900 border border-emerald-500/30 rounded-xl text-white">
-            <h3 className="text-xl font-bold text-emerald-400">⚡ Anotação: {modulo}</h3>
+            <h3 className="text-xl font-bold text-emerald-400"> Anotação: {modulo}</h3>
             <p className="mt-2 text-slate-300">Este componente é meu teste prático em Next.js para colocar em prática os {topicosCount} tópicos resumidos neste módulo.</p>
             <button 
                 onClick={() => setTestado(true)} 
                 className="mt-4 px-4 py-2 bg-emerald-500 text-black font-semibold rounded hover:bg-emerald-400 transition"
             >
-                {testado ? "✔️ Tópicos Validados no Lab com Sucesso!" : "Revisar Próximo Módulo de Estudo 🚀"}
+                {testado ? " Tópicos Validados no Lab com Sucesso!" : "Revisar Próximo Módulo de Estudo "}
             </button>
         </div>
     );
@@ -1444,14 +1443,11 @@ if __name__ == "__main__":
 '''.replace("__MOD_TITLE__", mod_title).replace("__MOD_FOLDER__", mod_folder))
                 elif trk["id"] == "C":
                     f.write('''/* Meu Experimento em Linguagem C: __MOD_TITLE__ | Estudante: Carlos Guedes */
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 int main(void) {
     printf("=====================================================\n");
-    printf("📓 Meu Caderno de C - __MOD_FOLDER__\n");
-    printf("⚡ Experimento prático de código de Carlos Guedes\n");
+    printf(" Meu Caderno de C - __MOD_FOLDER__\n");
+    printf(" Experimento prático de código de Carlos Guedes\n");
     printf("=====================================================\n");
     
     int topicos_completos = 10;
@@ -1473,14 +1469,14 @@ import java.util.stream.IntStream;
 
 public class ExperimentoPratico {
     public static void main(String[] args) {
-        System.out.println("⚡ [Meu Caderno Java] Iniciando testes no módulo: __MOD_FOLDER__");
+        System.out.println(" [Meu Caderno Java] Iniciando testes no módulo: __MOD_FOLDER__");
         
         List<String> anotacoes = IntStream.rangeClosed(1, 10)
             .mapToObj(i -> "Tópico 0" + i + " revisado e testado no meu laboratório com sucesso!")
             .collect(Collectors.toList());
             
         anotacoes.forEach(System.out::println);
-        System.out.println("✅ Status: 10/10 Tópicos estudados e testados na JVM com excelência por Carlos Guedes!");
+        System.out.println(" Status: 10/10 Tópicos estudados e testados na JVM com excelência por Carlos Guedes!");
     }
 }
 '''.replace("__MOD_TITLE__", mod_title).replace("__MOD_FOLDER__", mod_folder))
@@ -1547,7 +1543,7 @@ LIMIT 5;
 set -euo pipefail
 
 echo -e "\033[1;32m============================================================\033[0m"
-echo -e "\033[1;36m 📓 Caderno CLI & DevOps - __MOD_FOLDER__\033[0m"
+echo -e "\033[1;36m  Caderno CLI & DevOps - __MOD_FOLDER__\033[0m"
 echo -e "\033[1;32m============================================================\033[0m"
 
 echo "[INFO] Auditando meu ambiente de terminal e ferramentas de estudo..."
@@ -1559,11 +1555,10 @@ echo -e "\033[1;32m[SUCESSO] Módulo validado! 10/10 Tópicos revisados e testad
                 elif trk["id"] == "HACKING_ETICO":
                     f.write('''#!/usr/bin/env bash
 # Meu Experimento de Hacking Ético e Cibersegurança: __MOD_TITLE__
-# Estudante: Carlos Guedes (Aviso: Meus testes educacionais em ambiente controlado de laboratório!)
 
 echo "======================================================================="
-echo " 💀 MEU CADERNO INFOSEC - __MOD_FOLDER__"
-echo " 🛡️ Experimentos de Defesa, Auditoria e Análise de Entropia de Redes"
+echo "  MEU CADERNO INFOSEC - __MOD_FOLDER__"
+echo "  Experimentos de Defesa, Auditoria e Análise de Entropia de Redes"
 echo "======================================================================="
 
 echo "[1] Verificando isolamento da minha rede de laboratório (RoE)... OK."
@@ -1572,10 +1567,9 @@ echo "[3] Status: 10 Tópicos teóricos e práticos revisados e anotados com suc
 echo "======================================================================="
 '''.replace("__MOD_TITLE__", mod_title).replace("__MOD_FOLDER__", mod_folder))
 
-                f.write(f'```\n\n---\n\n## 🚀 Meu Próximo Passo no Estudo\n')
+                f.write(f'```\n\n---\n\n##  Meu Próximo Passo no Estudo\n')
                 f.write('Para aprofundar meu aprendizado neste módulo, meu desafio é implementar uma variação do laboratório acima, adicionando uma funcionalidade extra para testar cenários limites e fixar os 10 conceitos estudados nesta etapa.\n')
 
-            # Arquivo de Código Prático Isolado (para execução direta no terminal ou VS Code Live Server)
             code_filename = f"experimento_pratico.{trk['ext']}"
             code_filepath = os.path.join(mod_dir, code_filename)
             with open(code_filepath, "w", encoding="utf-8") as f:
@@ -1588,7 +1582,7 @@ echo "======================================================================="
     <style>body{font-family:sans-serif;background:#0f172a;color:#f8fafc;padding:2rem;} h1{color:#00ff88;} .box{background:#1e293b;padding:1.5rem;border-radius:8px;border-left:4px solid #00ff88;margin-top:1rem;}</style>
 </head>
 <body>
-    <h1>⚡ Meu Experimento Prático: __MOD_TITLE__</h1>
+    <h1> Meu Experimento Prático: __MOD_TITLE__</h1>
     <div class="box">
         <h3>Caderno de Estudos - Carlos Guedes</h3>
         <p>Este arquivo comprova que todos os 10 tópicos deste módulo foram estudados, testados e anotados no meu caderno.</p>
@@ -1615,7 +1609,7 @@ body {
 '''.replace("__MOD_TITLE__", mod_title).replace("__MOD_FOLDER__", mod_folder))
                 elif trk["id"] == "JS":
                     f.write('''// Meu Lab Prático JS - __MOD_FOLDER__ | Carlos Guedes
-console.log("⚡ [JavaScript Moderno] Lab de estudo ativado: __MOD_FOLDER__");
+console.log(" [JavaScript Moderno] Lab de estudo ativado: __MOD_FOLDER__");
 const topicosRevisados = Array.from({ length: 10 }, (_, i) => `Tópico 0${i+1} estudado e validado no lab!`);
 console.table(topicosRevisados);
 '''.replace("__MOD_TITLE__", mod_title).replace("__MOD_FOLDER__", mod_folder))
@@ -1628,24 +1622,23 @@ export const ModuloEstudoConfig = {
     estudante: "Carlos Guedes",
     revisadoEm: new Date().toISOString()
 };
-console.log("🚀 Módulo TS/React do caderno carregado:", ModuloEstudoConfig);
+console.log(" Módulo TS/React do caderno carregado:", ModuloEstudoConfig);
 '''.replace("__MOD_TITLE__", mod_title).replace("__MOD_FOLDER__", mod_folder).replace("__TRK_TITLE__", trk["title"]))
                 elif trk["id"] == "PYTHON":
                     f.write('''# Meu Lab Prático Python - __MOD_FOLDER__ | Carlos Guedes
 import math
 
 def auditar_estudo():
-    print(f"🐍 [Meu Caderno Python] Testando módulo: __MOD_FOLDER__")
-    print("✅ Status: 10 Tópicos estudados, revisados e anotados por Carlos Guedes.")
+    print(f" [Meu Caderno Python] Testando módulo: __MOD_FOLDER__")
+    print(" Status: 10 Tópicos estudados, revisados e anotados por Carlos Guedes.")
 
 if __name__ == "__main__":
     auditar_estudo()
 '''.replace("__MOD_TITLE__", mod_title).replace("__MOD_FOLDER__", mod_folder))
                 elif trk["id"] == "C":
                     f.write('''/* Meu Lab Prático C - __MOD_FOLDER__ | Carlos Guedes */
-#include <stdio.h>
 int main() {
-    printf("⚡ [Meu Caderno C] Módulo validado com sucesso: %s\n", "__MOD_FOLDER__");
+    printf(" [Meu Caderno C] Módulo validado com sucesso: %s\n", "__MOD_FOLDER__");
     return 0;
 }
 '''.replace("__MOD_TITLE__", mod_title).replace("__MOD_FOLDER__", mod_folder))
@@ -1653,14 +1646,14 @@ int main() {
                     f.write('''/* Meu Lab Prático Java - __MOD_FOLDER__ | Carlos Guedes */
 public class ExperimentoPratico {
     public static void main(String[] args) {
-        System.out.println("☕ [Meu Caderno Java 21] Módulo estudado e testado com sucesso: __MOD_FOLDER__");
+        System.out.println(" [Meu Caderno Java 21] Módulo estudado e testado com sucesso: __MOD_FOLDER__");
     }
 }
 '''.replace("__MOD_TITLE__", mod_title).replace("__MOD_FOLDER__", mod_folder))
                 elif trk["id"] == "PHP":
                     f.write('''<?php
 // Meu Lab Prático PHP - __MOD_FOLDER__ | Carlos Guedes
-echo "🐘 [Meu Caderno PHP 8.3] Módulo revisado e testado: __MOD_FOLDER__\n";
+echo " [Meu Caderno PHP 8.3] Módulo revisado e testado: __MOD_FOLDER__\n";
 '''.replace("__MOD_TITLE__", mod_title).replace("__MOD_FOLDER__", mod_folder))
                 elif trk["id"] == "SQL_DB":
                     f.write('''-- Meu Lab Prático SQL/Prisma - __MOD_FOLDER__ | Carlos Guedes
@@ -1669,12 +1662,12 @@ SELECT '__MOD_FOLDER__' AS modulo, '10 Tópicos Estudados' AS status, 'Carlos Gu
                 elif trk["id"] == "GIT_DEVOPS":
                     f.write('''#!/usr/bin/env bash
 # Meu Lab Prático Git/DevOps - __MOD_FOLDER__ | Carlos Guedes
-echo "🚀 [Meu Caderno CLI & Terminal] Módulo validado com sucesso: __MOD_FOLDER__"
+echo " [Meu Caderno CLI & Terminal] Módulo validado com sucesso: __MOD_FOLDER__"
 '''.replace("__MOD_TITLE__", mod_title).replace("__MOD_FOLDER__", mod_folder))
                 elif trk["id"] == "HACKING_ETICO":
                     f.write('''#!/usr/bin/env bash
 # Meu Lab Prático InfoSec - __MOD_FOLDER__ | Carlos Guedes
-echo "🛡️ [Meu Caderno de Hacking Ético & Cibersegurança] Módulo validado no lab: __MOD_FOLDER__"
+echo " [Meu Caderno de Hacking Ético & Cibersegurança] Módulo validado no lab: __MOD_FOLDER__"
 '''.replace("__MOD_TITLE__", mod_title).replace("__MOD_FOLDER__", mod_folder))
 
     print("\n[SUCESSO] Atualização concluída! 11 Trilhas e mais de 770 Tópicos estruturados como o Caderno de Anotações e Laboratório de Carlos Guedes.")

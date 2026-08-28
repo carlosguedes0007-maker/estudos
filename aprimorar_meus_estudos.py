@@ -36,7 +36,7 @@ HTML_UPGRADES = {
     
     <main>
         <div class="conceito">
-            <h2>🧠 Minhas anotações: Por que usamos títulos no HTML5?</h2>
+            <h2> Minhas anotações: Por que usamos títulos no HTML5?</h2>
             <p>Anotei que os elementos <strong>&lt;h1&gt;</strong> a <strong>&lt;h6&gt;</strong> definem a hierarquia semântica da informação. Os motores de busca e leitores de tela utilizam esses títulos para compreender a estrutura de tópicos da página.</p>
         </div>
 
@@ -113,7 +113,7 @@ CSS_UPGRADES = {
 </head>
 <body>
     <div class="hero">
-        <h1>✨ Olá, Mundo CSS3!</h1>
+        <h1> Olá, Mundo CSS3!</h1>
         <p>Bem-vindo ao meu laboratório pessoal de estilização. Aqui eu testo variáveis, box model e design interativo!</p>
     </div>
 </body>

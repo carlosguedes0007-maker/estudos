@@ -6,4 +6,4 @@ export const ModuloEstudoConfig = {
     estudante: "Carlos Guedes",
     revisadoEm: new Date().toISOString()
 };
-console.log("🚀 Módulo TS/React do caderno carregado:", ModuloEstudoConfig);
+console.log(" Módulo TS/React do caderno carregado:", ModuloEstudoConfig);

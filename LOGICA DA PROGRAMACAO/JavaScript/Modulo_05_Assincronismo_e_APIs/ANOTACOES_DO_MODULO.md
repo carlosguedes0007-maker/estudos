@@ -1,43 +1,43 @@
-# 📓 Módulo 5: Assincronismo, Promises, Fetch API e Async/Await (Tópicos 41 a 50)
+#  Módulo 5: Assincronismo, Promises, Fetch API e Async/Await (Tópicos 41 a 50)
 
-## 🎯 Meu Foco de Estudo no Módulo
+##  Meu Foco de Estudo no Módulo
 Neste módulo, concentrei meus estudos em dominar os 10 tópicos listados abaixo. Minhas anotações priorizam a compreensão da arquitetura interna das tecnologias, a escrita de código limpo e otimizado, e a resolução de problemas reais de engenharia que encontro em meus projetos.
 
-## 🧠 Minhas Anotações & Resumos Técnicos
+##  Minhas Anotações & Resumos Técnicos
 
-### 📌 O Event Loop do JavaScript, Call Stack e Task Queue
+###  O Event Loop do JavaScript, Call Stack e Task Queue
 Durante os meus estudos sobre **O Event Loop do JavaScript, Call Stack e Task Queue**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
-### 📌 O problema dos Callbacks e o 'Callback Hell'
+###  O problema dos Callbacks e o 'Callback Hell'
 Durante os meus estudos sobre **O problema dos Callbacks e o 'Callback Hell'**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
-### 📌 Criando e consumindo Promises (then, catch, finally)
+###  Criando e consumindo Promises (then, catch, finally)
 Durante os meus estudos sobre **Criando e consumindo Promises (then, catch, finally)**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
-### 📌 A sintaxe moderna Async / Await
+###  A sintaxe moderna Async / Await
 Durante os meus estudos sobre **A sintaxe moderna Async / Await**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
-### 📌 Tratamento robusto de erros com Try / Catch / Finally
+###  Tratamento robusto de erros com Try / Catch / Finally
 Durante os meus estudos sobre **Tratamento robusto de erros com Try / Catch / Finally**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
-### 📌 Consumindo APIs REST externas com a Fetch API
+###  Consumindo APIs REST externas com a Fetch API
 Durante os meus estudos sobre **Consumindo APIs REST externas com a Fetch API**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
-### 📌 Manipulação de dados JSON (JSON.parse e JSON.stringify)
+###  Manipulação de dados JSON (JSON.parse e JSON.stringify)
 Durante os meus estudos sobre **Manipulação de dados JSON (JSON.parse e JSON.stringify)**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
-### 📌 Execução paralela com Promise.all(), Promise.race() e Promise.allSettled()
+###  Execução paralela com Promise.all(), Promise.race() e Promise.allSettled()
 Durante os meus estudos sobre **Execução paralela com Promise.all(), Promise.race() e Promise.allSettled()**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
-### 📌 Cancelamento de requisições HTTP com AbortController
+###  Cancelamento de requisições HTTP com AbortController
 Durante os meus estudos sobre **Cancelamento de requisições HTTP com AbortController**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
-### 📌 Construindo um cliente HTTP modular e reutilizável
+###  Construindo um cliente HTTP modular e reutilizável
 Durante os meus estudos sobre **Construindo um cliente HTTP modular e reutilizável**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
 ---
 
-## 💻 Meu Experimento Prático no Lab
+##  Meu Experimento Prático no Lab
 Abaixo está o código prático de referência que escrevi e testei no meu terminal/navegador para colocar à prova as anotações deste módulo:
 
 ```javascript
@@ -63,5 +63,5 @@ lab.executarExperimento();
 
 ---
 
-## 🚀 Meu Próximo Passo no Estudo
+##  Meu Próximo Passo no Estudo
 Para aprofundar meu aprendizado neste módulo, meu desafio é implementar uma variação do laboratório acima, adicionando uma funcionalidade extra para testar cenários limites e fixar os 10 conceitos estudados nesta etapa.

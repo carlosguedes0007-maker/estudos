@@ -18,7 +18,6 @@ public class exercicio4{
                 System.out.println("Voce deseja continuar? (s/n)");
                 string = scanner.nextLine();
                 if(string.equalsIgnoreCase("s")) {
-                    //PROXIMA PERGUNTA
                     System.out.println("Em qual continente fica o Brasil?");
                     string = scanner.nextLine();
                     if(string.equals("america do sul")) {

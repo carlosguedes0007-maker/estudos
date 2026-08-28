@@ -1,43 +1,43 @@
-# 📓 Módulo 4: Manipulação de Arquivos, OS, Shutil e Automação CLI (Tópicos 31 a 40)
+#  Módulo 4: Manipulação de Arquivos, OS, Shutil e Automação CLI (Tópicos 31 a 40)
 
-## 🎯 Meu Foco de Estudo no Módulo
+##  Meu Foco de Estudo no Módulo
 Neste módulo, concentrei meus estudos em dominar os 10 tópicos listados abaixo. Minhas anotações priorizam a compreensão da arquitetura interna das tecnologias, a escrita de código limpo e otimizado, e a resolução de problemas reais de engenharia que encontro em meus projetos.
 
-## 🧠 Minhas Anotações & Resumos Técnicos
+##  Minhas Anotações & Resumos Técnicos
 
-### 📌 Manipulação de arquivos texto e binários (open, read, write e o gerenciador with)
+###  Manipulação de arquivos texto e binários (open, read, write e o gerenciador with)
 Durante os meus estudos sobre **Manipulação de arquivos texto e binários (open, read, write e o gerenciador with)**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
-### 📌 Trabalhando com dados estruturados CSV (módulo csv) e JSON (módulo json)
+###  Trabalhando com dados estruturados CSV (módulo csv) e JSON (módulo json)
 Durante os meus estudos sobre **Trabalhando com dados estruturados CSV (módulo csv) e JSON (módulo json)**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
-### 📌 Exploração do sistema de arquivos com o módulo os e pathlib.Path
+###  Exploração do sistema de arquivos com o módulo os e pathlib.Path
 Durante os meus estudos sobre **Exploração do sistema de arquivos com o módulo os e pathlib.Path**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
-### 📌 Operações de diretórios, cópias e backups automáticos com shutil
+###  Operações de diretórios, cópias e backups automáticos com shutil
 Durante os meus estudos sobre **Operações de diretórios, cópias e backups automáticos com shutil**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
-### 📌 Executando comandos do sistema operacional e capturando saídas com subprocess
+###  Executando comandos do sistema operacional e capturando saídas com subprocess
 Durante os meus estudos sobre **Executando comandos do sistema operacional e capturando saídas com subprocess**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
-### 📌 Argumentos de linha de comando com sys.argv e o módulo argparse / click
+###  Argumentos de linha de comando com sys.argv e o módulo argparse / click
 Durante os meus estudos sobre **Argumentos de linha de comando com sys.argv e o módulo argparse / click**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
-### 📌 Manipulação de tempo, datas e cronômetros com datetime e time
+###  Manipulação de tempo, datas e cronômetros com datetime e time
 Durante os meus estudos sobre **Manipulação de tempo, datas e cronômetros com datetime e time**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
-### 📌 Expressões Regulares (Regex) em Python com o módulo re para busca e filtragem
+###  Expressões Regulares (Regex) em Python com o módulo re para busca e filtragem
 Durante os meus estudos sobre **Expressões Regulares (Regex) em Python com o módulo re para busca e filtragem**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
-### 📌 Automação de auditoria de portas de rede e diagnósticos locais (Estilo DevEnv Doctor)
+###  Automação de auditoria de portas de rede e diagnósticos locais (Estilo DevEnv Doctor)
 Durante os meus estudos sobre **Automação de auditoria de portas de rede e diagnósticos locais (Estilo DevEnv Doctor)**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
-### 📌 Criando ferramentas de terminal CLI com formatação colorida e barras de progresso
+###  Criando ferramentas de terminal CLI com formatação colorida e barras de progresso
 Durante os meus estudos sobre **Criando ferramentas de terminal CLI com formatação colorida e barras de progresso**, anotei que compreender a fundo esse conceito é fundamental para garantir um código estruturado, seguro e de fácil manutenção. Nos testes do meu laboratório pessoal, verifiquei que dominar essa técnica evita gargalos de processamento, otimiza o consumo de memória/recursos e blinda a aplicação contra falhas e vulnerabilidades comuns em ambientes produtivos.
 
 ---
 
-## 💻 Meu Experimento Prático no Lab
+##  Meu Experimento Prático no Lab
 Abaixo está o código prático de referência que escrevi e testei no meu terminal/navegador para colocar à prova as anotações deste módulo:
 
 ```python
@@ -82,5 +82,5 @@ if __name__ == "__main__":
 
 ---
 
-## 🚀 Meu Próximo Passo no Estudo
+##  Meu Próximo Passo no Estudo
 Para aprofundar meu aprendizado neste módulo, meu desafio é implementar uma variação do laboratório acima, adicionando uma funcionalidade extra para testar cenários limites e fixar os 10 conceitos estudados nesta etapa.

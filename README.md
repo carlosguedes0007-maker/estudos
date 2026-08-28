@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📖 Meus Estudos & Anotações de Code (Caderno de Engenharia & Lab de Práticas) 🧠🚀
+#  Meus Estudos & Anotações de Code (Caderno de Engenharia & Lab de Práticas) 
 
 **Meu caderno pessoal de anotações, resumos teóricos, macetes e experimentos práticos na minha jornada contínua como desenvolvedor!**
 
@@ -19,7 +19,7 @@
 
 ---
 
-## 📖 Sobre o Meu Caderno de Estudos & Laboratórios
+##  Sobre o Meu Caderno de Estudos & Laboratórios
 
 Este repositório (**Estudos**) é o meu **caderno pessoal de aprendizado contínuo, resumos teóricos e laboratório vivencial de código (*My Developer Study Notes & Tech Lab*)**. Em vez de planos de aula ou currículos estáticos, aqui eu registro, documento, resumo e coloco à prova tudo o que estou estudando sobre arquitetura de software, cibersegurança, automação de sistemas e desenvolvimento web moderno.
 
@@ -27,11 +27,11 @@ Para organizar minha rotina e conectar os estudos aos meus projetos reais (como 
 
 ---
 
-## 🌟 Índice das Minhas 11 Trilhas de Estudo (770+ Tópicos)
+##  Índice das Minhas 11 Trilhas de Estudo (770+ Tópicos)
 
 Abaixo estão listadas as áreas de estudo e experimentação do meu portfólio. Clique na pasta da trilha para acessar o meu **Caderno de Anotações (CADERNO_DE_ESTUDOS.md)** e navegar pelos meus experimentos de código em cada módulo:
 
-| 🏷️ Trilha de Estudo | 📂 Diretório no Repositório | 📝 Anotações & Labs | 🛠️ Tecnologias & Foco do Estudo |
+|  Trilha de Estudo |  Diretório no Repositório |  Anotações & Labs |  Tecnologias & Foco do Estudo |
 | :--- | :--- | :---: | :--- |
 | **HTML5 Semântico & Acessibilidade** | [`/HTML/`](file:///C:/Users/carlo/OneDrive/Documents/GitHub/estudos/HTML) | **70 Tópicos** | WCAG 2.1, WAI-ARIA, SEO Técnico, Microdados, Web APIs e Shadow DOM |
 | **CSS3, Design Systems & Glassmorphism** | [`/CSS/`](file:///C:/Users/carlo/OneDrive/Documents/GitHub/estudos/CSS) | **70 Tópicos** | Flexbox, Grid Layout, Variáveis Nativas, Dark Mode, HSL Tailored e Animações |
@@ -47,7 +47,7 @@ Abaixo estão listadas as áreas de estudo e experimentação do meu portfólio.
 
 ---
 
-## 🏗️ Como Organizo Meu Conhecimento (Estrutura 7x10)
+##  Como Organizo Meu Conhecimento (Estrutura 7x10)
 
 Para garantir um aprendizado sólido e cobrir desde os fundamentos teóricos até a aplicação industrial, dividi cada uma das 11 trilhas na arquitetura de **7 Módulos de Investigação**, onde cada módulo reúne exatamente **10 Tópicos Práticos**:
 
@@ -84,18 +84,18 @@ Dentro de cada pasta de módulo (`Modulo_XX_...`), você encontrará:
 
 ---
 
-## ⚡ Integração com o Meu Portfólio de Projetos
+##  Integração com o Meu Portfólio de Projetos
 
 Este caderno de estudos está diretamente conectado aos repositórios práticos do meu portfólio no GitHub, servindo como base teórica e laboratório de testes:
 
-- 🎨 **Design Systems & Cores**: Conectado com [`color-harmony-engine`](https://github.com/carlosguedes-dev), [`dev-token-studio`](https://github.com/carlosguedes-dev) e [`attack-shark-r5`](https://github.com/carlosguedes-dev).
-- ⚙️ **Automação de Terminal & Git**: Conectado com [`commit-craft-cli`](https://github.com/carlosguedes-dev) e [`dev-env-doctor`](https://github.com/carlosguedes-dev).
-- 📚 **Arquitetura Fullstack & Banco de Dados**: Conectado ao meu maior estudo de gestão: [`erp-biblioteca`](https://github.com/carlosguedes-dev).
-- 🔐 **Cibersegurança & Matemática Aplicada**: Conectado ao meu laboratório de criptografia e logaritmos: [`senhas-logaritmo`](https://github.com/carlosguedes-dev).
+-  **Design Systems & Cores**: Conectado com [`color-harmony-engine`](https://github.com/carlosguedes-dev), [`dev-token-studio`](https://github.com/carlosguedes-dev) e [`attack-shark-r5`](https://github.com/carlosguedes-dev).
+-  **Automação de Terminal & Git**: Conectado com [`commit-craft-cli`](https://github.com/carlosguedes-dev) e [`dev-env-doctor`](https://github.com/carlosguedes-dev).
+-  **Arquitetura Fullstack & Banco de Dados**: Conectado ao meu maior estudo de gestão: [`erp-biblioteca`](https://github.com/carlosguedes-dev).
+-  **Cibersegurança & Matemática Aplicada**: Conectado ao meu laboratório de criptografia e logaritmos: [`senhas-logaritmo`](https://github.com/carlosguedes-dev).
 
 ---
 
-## 🚀 Como Executar Meus Experimentos Práticos
+##  Como Executar Meus Experimentos Práticos
 
 1. **Clone o Meu Caderno no seu Terminal:**
    ```bash
@@ -122,19 +122,19 @@ Este caderno de estudos está diretamente conectado aos repositórios práticos 
 
 ---
 
-## 🤝 Troca de Conhecimento e Sugestões
+##  Troca de Conhecimento e Sugestões
 
 A busca por conhecimento é infinita e colaborativa! Se você estudou uma abordagem algorítmica diferente, criou um macete interessante de CSS ou quer sugerir um experimento de segurança, veja como interagir no arquivo [CONTRIBUTING.md](CONTRIBUTING.md) e sinta-se à vontade para abrir uma Issue ou Pull Request.
 
 ---
 
-## 📄 Licença
+##  Licença
 
 Todos os meus experimentos de código, resumos, anotações e scripts deste caderno estão licenciados sob a licença de código aberto **MIT**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
 <div align="center">
-  <p>Caderno mantido com dedicação diária, disciplina e paixão por código por <a href="https://github.com/carlosguedes-dev"><b>Carlos Guedes</b></a> ❤️🚀</p>
-  <p><b>Transformando estudo contínuo em código limpo, arquitetura sólida e evolução profissional constante! ✨</b></p>
+  <p>Caderno mantido com dedicação diária, disciplina e paixão por código por <a href="https://github.com/carlosguedes-dev"><b>Carlos Guedes</b></a> </p>
+  <p><b>Transformando estudo contínuo em código limpo, arquitetura sólida e evolução profissional constante! </b></p>
 </div>
